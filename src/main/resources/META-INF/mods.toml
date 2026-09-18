@@ -1,0 +1,40 @@
+modLoader="javafml"
+loaderVersion="[47,48)"
+license="MIT"
+
+[[mods]]
+modId="wendigo_dweller"
+version="${file.jarVersion}"
+displayName="Wendigo Dweller"
+authors="Wendigo Dweller"
+description='''
+A horror mod for Minecraft 1.20.1.
+'''
+
+[[dependencies.wendigo_dweller]]
+modId="forge"
+mandatory=true
+versionRange="[47.2,48)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.wendigo_dweller]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.21)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.wendigo_dweller]]
+modId="voicechat_api"
+mandatory=true
+versionRange="[2.6.0,)"
+ordering="AFTER"
+side="BOTH"
+
+[[dependencies.wendigo_dweller]]
+modId="geckolib"
+mandatory=true
+versionRange="[4.8,5)"
+ordering="AFTER"
+side="BOTH"

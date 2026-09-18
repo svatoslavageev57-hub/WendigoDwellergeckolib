@@ -69,7 +69,7 @@ dependencies {
     implementation("com.eliotlash.mclib:mclib:20")
 
     // Forge 1.20.1 runtime dependency; it is NOT bundled into this mod JAR.
-    runtimeOnly fg.deobf("maven.modrinth:simple-voice-chat:forge-${voicechat_version}")
+    runtimeOnly fg.deobf("maven.modrinth:simple-voice-chat:forge-1.20.1-2.6.10")
 }
 
 tasks.named('jar', Jar).configure {
